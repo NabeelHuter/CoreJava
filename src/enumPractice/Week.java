@@ -10,6 +10,15 @@ public class Week {
 
     }
     public void whatToDo(){
+
+        //switch(enum){-- switch block starts
+        //case --- keyword enum's value:
+        //action against case
+        //break -- keyword
+        //default:
+        //
+
+
         switch (days){
                case Saturday:
                   System.out.println("Today is saturday & i'm not working today");
@@ -24,7 +33,7 @@ public class Week {
                 case Friday:
                 System.out.println("Today i'm going to work");
                 break;
-            default:
+                default:
                 System.out.println("Today i'm going to watch movies");
                 break;
         }

@@ -1,6 +1,10 @@
 package Utility;
-
+import java.io.IOException;
 import java.util.Properties;
+import java.io.FileNotFoundException;
+import java.io.BufferedReader;
+import java.io.InputStream;
+
 
 public class Execution {
     public static void main(String[] args) {
@@ -10,7 +14,7 @@ public class Execution {
 
         String value = null;
         String value2 = null;
-        DataReader dataReader = new DataReader();
+        Utility.DataReader dataReader = new Utility.DataReader();
         value = dataReader.readMyTextFile("src/test.txt");
         value2 = dataReader.readMyTextFile("src/utility/information.txt");
         System.out.println("value is : " + value);

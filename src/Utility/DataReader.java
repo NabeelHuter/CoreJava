@@ -1,4 +1,6 @@
 package Utility;
+
+
 import java.io.*;
 import java.util.Properties;
 
@@ -59,6 +61,5 @@ public class DataReader {
         }
         return properties;
     }
+
 }
-
-

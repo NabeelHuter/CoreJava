@@ -1,4 +1,4 @@
-package dataStructure;
+package Array;
 
 public class ArrayPractice {
 
